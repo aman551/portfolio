@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aman Tanwar | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
     <header>
@@ -17,37 +18,56 @@
             <a href="#contact">Contact</a>
         </nav>
     </header>
+
     <section id="about">
         <h2>About Me</h2>
-        <p>I am a passionate full-stack web developer skilled in HTML, CSS, JavaScript, React, Node.js, Java, SQL, and MongoDB. I love building creative and efficient web applications.</p>
+        <p>I am a full-stack web developer skilled in HTML, CSS, JavaScript, React, Node.js, Java, SQL, and MongoDB.</p>
     </section>
+
     <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Java</li>
-            <li>SQL</li>
-            <li>MongoDB</li>
-        </ul>
+        <h2>Skills <i class="fas fa-tools"></i></h2>
+        <div class="skills-list">
+            <span><i class="fab fa-html5"></i> HTML</span>
+            <span><i class="fab fa-css3-alt"></i> CSS</span>
+            <span><i class="fab fa-js"></i> JavaScript</span>
+            <span><i class="fab fa-react"></i> React</span>
+            <span><i class="fab fa-node-js"></i> Node.js</span>
+            <span><i class="fas fa-coffee"></i> Java</span>
+            <span><i class="fas fa-database"></i> SQL</span>
+            <span><i class="fas fa-leaf"></i> MongoDB</span>
+        </div>
     </section>
+
     <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><strong>Restaurant Menu App</strong></li>
-            <li><strong>Crypto Tracker App</strong></li>
-            <li><strong>Event Invitation Page</strong></li>
-        </ul>
+        <h2>Projects <i class="fas fa-laptop-code"></i></h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>🍽️ Restaurant Menu App</h3>
+                <p>A web app to display and manage restaurant menus dynamically.</p>
+            </div>
+            <div class="project-card">
+                <h3>📊 Crypto Tracker App</h3>
+                <p>Tracks cryptocurrency prices in real-time using API integration.</p>
+            </div>
+            <div class="project-card">
+                <h3>🎉 Event Invitation Page</h3>
+                <p>A stylish page to send event invites online with RSVP.</p>
+            </div>
+        </div>
     </section>
+
     <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: your-email@example.com</p>
+        <h2>Contact Me <i class="fas fa-envelope"></i></h2>
+        <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
+
     <footer>
-        <p>&copy; 2025 Aman Tanwar</p>
+        <p>&copy; 2025 Aman Tanwar | Connect: <a href="#">LinkedIn</a> | <a href="#">GitHub</a></p>
     </footer>
 </body>
 </html>
